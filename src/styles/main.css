@@ -121,7 +121,12 @@ h2 {
 }
 
 .alert-content {
-  background-color: #fff;
+  background-color: #1e1e1e;
+  color: white;
+  border: 3px;
+  border-style: solid;
+  border-image: linear-gradient(325deg, rgba(198, 143, 235, 1) 0%, rgba(39, 193, 195, 1) 50%, rgba(162, 31, 190, 1) 100%) 1;
+  border-image-slice: 1;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -131,8 +136,8 @@ h2 {
 #close-alert {
   margin-top: 10px;
   padding: 5px 10px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: darkorchid;
+  color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
