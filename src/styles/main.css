@@ -92,7 +92,7 @@ h2 {
   content: "";
   position: absolute;
   inset: 0;
-  background: whitesmoke;
+  background: yellow;
   transition: 0.25s;
   transform: rotateY(0deg);
   backface-visibility: hidden;

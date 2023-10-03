@@ -1,37 +1,37 @@
-const emojis = [
-    "🐱",
-    "🐱",
-    "🦝",
-    "🦝",
-    "🦊",
-    "🦊",
-    "🐶",
-    "🐶",
-    "🐵",
-    "🐵",
-    "🦁",
-    "🦁",
-    "🐯",
-    "🐯",
-    "🐮",
-    "🐮",
+const animals = [
+   "./assets/arara-azul.png",
+   "./assets/arara-azul.png",
+   "./assets/baleia-azul.png",
+   "./assets/baleia-azul.png",
+   "./assets/lobo-guara.png",
+   "./assets/lobo-guara.png",
+   "./assets/macaco-prego.png",
+   "./assets/macaco-prego.png",
+   "./assets/onca-pintada.png",
+   "./assets/onca-pintada.png",
+   "./assets/panda.png",
+   "./assets/panda.png",
+   "./assets/peixe-boi.png",
+   "./assets/peixe-boi.png",
+   "./assets/pinguin.png",
+   "./assets/pinguin.png",
   ];
   
   let openCards = []; // Matriz usada para rastrear os cartões que foram clicados
   
   // Embaralhando a matriz emojis aleatoriamente
-  let shuffleEmojis = emojis.sort(() => (Math.random() > 0.5 ? 2 : -1));
+  let shuffleAnimals = animals.sort(() => (Math.random() > 0.5 ? 2 : -1));
   
   // Loop for usado para criar elementos HTML <div> para cada emoji embaralhado
   // Cada <div> é configurado com uma classe chamada "item" e o emoji correspondente é definido como seu conteúdo
   // Além disso, um evento de clique (onclick) é adicionado a cada <div> que chama a função handleClick quando um emoji é clicado
   // Os <div> são anexados ao elemento HTML com a classe "game"
-  for (let i = 0; i < emojis.length; i++) {
-    let box = document.createElement("div");
-    box.className = "item";
-    box.innerHTML = shuffleEmojis[i];
-    box.onclick = handleClick;
-    document.querySelector(".game").appendChild(box);
+  for (let i = 0; i < animals.length; i++) {
+    let img = document.createElement("img");
+    img.className = "item";
+    img.src = shuffleAnimals[i]; // Defina o atributo src com o caminho da imagem
+    img.onclick = handleClick;
+    document.querySelector(".game").appendChild(img);
   }
   
   // A função handleClick é chamada sempre que um emoji é clicado
@@ -67,7 +67,7 @@ const emojis = [
   
     openCards = [];
   
-    if (document.querySelectorAll(".boxMatch").length === emojis.length) {
+    if (document.querySelectorAll(".boxMatch").length === animals.length) {
       showCustomAlert();
     }
   }
