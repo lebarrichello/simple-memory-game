@@ -12,6 +12,7 @@ body {
   align-items: center;
   min-height: 100vh;
   background-color: #1e1e1e;
+  user-select: none;
 
 }
 
@@ -86,6 +87,7 @@ h2 {
   font-size: 3em;
   transform: rotateY(180deg);
   transition: 0.25s;
+  cursor: pointer;
 }
 
 .item img {
