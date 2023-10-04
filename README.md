@@ -3,7 +3,7 @@
 Projeto desenvolvido como parte dos estudos no Bootcamp | Potência Tech iFood - Desenvolvimento de Jogos
 
 ![mobile](https://github.com/lebarrichello/simple-memory-game/assets/42211040/33876633-7dc0-4585-a3f4-078c3e8098c5)
-<p>Acesse o projeto em produção <a href="https://project-trivia-react-redux-lebarrichello.vercel.app/" target="_blank">clicando aqui</a></p>
+<p>Acesse o projeto em produção <a href="https://lebarrichello.github.io/simple-memory-game/" target="_blank">clicando aqui</a></p>
 
 ## 🎯 Objetivo
 
