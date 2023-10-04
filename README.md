@@ -21,3 +21,5 @@ Desenvolver o clássico jogo da memória em que o usuario seleciona cartas com i
 - **Confetti utilizado no modal alert:**-> [Codepen.io](https://codepen.io/chriscoyier/pen/yLGGoO/)
 - **Favicon:** -> [IconFinder.com](https://www.flaticon.com/br/icones-gratis/](https://cdn2.iconfinder.com/data/icons/edutainment-indigo-vol-2/256/Memory_Game-512.png)https://cdn2.iconfinder.com/data/icons/edutainment-indigo-vol-2/256/Memory_Game-512.png)
 - **Imagens geradas por IA:**-> [Canvas.com](https://www.canva.com/design/DAFwOtF6Y1w/gpj4MljXSz8nEHatNWb_Hg/edit?utm_content=DAFwOtF6Y1w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **Bootcamp:**-> [Dio.me](https://www.dio.me/bootcamp/potencia-tech-ifood-desenvolvimento-de-jogos)
+
