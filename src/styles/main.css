@@ -88,11 +88,16 @@ h2 {
   transition: 0.25s;
 }
 
+.item img {
+  width: 100px;
+  height: 100px;
+}
+
 .item::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: yellow;
+  background: linear-gradient(325deg, rgba(198, 143, 235, 1) 0%, rgba(39, 193, 195, 1) 50%, rgba(162, 31, 190, 1) 100%);
   transition: 0.25s;
   transform: rotateY(0deg);
   backface-visibility: hidden;
@@ -141,4 +146,16 @@ h2 {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+#drawing_canvas {
+  position: absolute;
+  width: 512px;
+  height: 512px;
+  top: 51px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  right: 0;
+  pointer-events: none;
 }
